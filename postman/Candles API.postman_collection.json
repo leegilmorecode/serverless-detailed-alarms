@@ -1,0 +1,39 @@
+{
+  "info": {
+    "_postman_id": "1fcd134c-1230-40ca-aa97-e156bda347b3",
+    "name": "Candles API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "752706"
+  },
+  "item": [
+    {
+      "name": "Create Order",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"quantity\": 2000,\n    \"price\": 1.20,\n    \"productId\": \"CANDLE_1\"\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://{{api_url}}/api/v1/orders",
+          "protocol": "https",
+          "host": ["{{api_url}}"],
+          "path": ["api", "v1", "orders"]
+        }
+      },
+      "response": []
+    }
+  ],
+  "variable": [
+    {
+      "key": "api_url",
+      "value": "your-rest-api-id.execute-api.your-region.amazonaws.com"
+    }
+  ]
+}
