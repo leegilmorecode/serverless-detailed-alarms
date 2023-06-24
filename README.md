@@ -4,6 +4,8 @@ An example of creating AWS CloudWatch alarms on filtered CloudWatch logs using t
 
 ![image](./docs/images/header.png)
 
+The article for this repo can be found here: https://medium.com/@leejamesgilmore/monitoring-aws-cloudwatch-logs-with-cdk-creating-alarms-for-specific-error-conditions-bae0c4e36f79
+
 ## Introduction
 
 In the world of cloud computing, effective monitoring and alerting are crucial for maintaining the health and stability of your serverless applications and services. AWS CloudWatch is a powerful monitoring and observability service provided by AWS which we are going to use in this article.
